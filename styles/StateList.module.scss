@@ -1,0 +1,39 @@
+.flagimage {
+  height: 2rem;
+  width: auto;
+}
+
+.statesList {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 0.4rem;
+  width: 160px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  background: white;
+  position: relative;
+  transition: transform 0.4s ease-in;
+  box-shadow: rgba(61, 61, 68, 0.2) 0px 7px 29px 3px;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background-color: rgb(25, 28, 68);
+  }
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: rgba(61, 61, 68, 0.2) 0px 10px 29px 3px;
+  }
+}
