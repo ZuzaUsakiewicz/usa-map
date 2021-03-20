@@ -1,6 +1,7 @@
+$fillColor: rgb(6, 6, 59);
+
 html,
 body {
-  background: rgb(95, 158, 160);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -17,24 +18,23 @@ a {
   box-sizing: border-box;
 }
 
+path {
+  pointer-events: all;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+path:hover {
+  stroke-width: 7px;
+  stroke: $fillColor;
+  fill: $fillColor;
+}
+
 .DC2 {
   stroke-width: 5px;
   cursor: pointer;
   &:hover {
     stroke-width: 7px;
-    stroke: blue;
-    fill: blue;
+    stroke: $fillColor;
+    fill: $fillColor;
   }
-}
-
-path {
-  pointer-events: all;
-  transition: all 0.2s ease-in;
-  cursor: pointer;
-}
-path:hover {
-  // opacity: 0.3;
-  stroke-width: 7px;
-  stroke: blue;
-  fill: blue;
 }
