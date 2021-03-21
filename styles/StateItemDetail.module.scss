@@ -1,0 +1,21 @@
+.link {
+  position: absolute;
+  top: 0;
+  right: 1vw;
+}
+.arrowBack {
+  font-size: 2rem;
+  transition: transform 0.2s ease-out;
+  &:hover {
+    transform: translateX(-10px);
+  }
+}
+
+.stateContainer {
+  padding: 2rem;
+}
+
+.routeMarker {
+  width: 100px;
+  height: auto;
+}
