@@ -1,14 +1,11 @@
-import Link from "next/Link";
 import { server } from "../../../config";
-const state = ({ state }) => {
-  console.log(state);
-  return (
-    <div>
-      <h1>{state.postal} </h1>
-      <h3>{state.name}</h3>
+import StateItemDetailPage from "../../../components/StateItemDetailPage";
 
-      <Link href="/">Back</Link>
-    </div>
+const state = ({ state }) => {
+  return (
+    <>
+      <StateItemDetailPage state={state} />
+    </>
   );
 };
 
