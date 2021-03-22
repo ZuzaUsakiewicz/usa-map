@@ -2,6 +2,7 @@
 //   id: "3",
 //   name: "",
 //   postal: "",
+// stateBorder: "",
 //   flag: "",
 //   seal: "",
 //   nickname: ["", ""],
@@ -29,6 +30,8 @@ export const states = [
     id: "1",
     name: "Alabama",
     postal: "AL",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/1/1a/Alabama_in_United_States.svg",
     flag:
       "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg",
     seal:
@@ -62,6 +65,8 @@ export const states = [
     id: "2",
     name: "Alaska",
     postal: "AK",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/8/84/Alaska_in_United_States_%28US50%29.svg",
     flag:
       "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg",
     seal:
@@ -91,6 +96,8 @@ export const states = [
     id: "3",
     name: "Arizona",
     postal: "AZ",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d8/Arizona_in_United_States.svg",
     flag:
       "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arizona.svg",
     seal:
@@ -127,6 +134,8 @@ export const states = [
     id: "4",
     name: "Arkansas",
     postal: "AR",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/8/86/Arkansas_in_United_States.svg",
     flag:
       "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arkansas.svg",
     seal:
@@ -156,6 +165,8 @@ export const states = [
     id: "5",
     name: "California",
     postal: "CA",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/9/94/California_in_United_States.svg",
     flag:
       "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg",
     seal:
@@ -185,6 +196,8 @@ export const states = [
     id: "6",
     name: "Colorado",
     postal: "CO",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/6/60/Colorado_in_United_States.svg",
     flag:
       "https://upload.wikimedia.org/wikipedia/commons/4/46/Flag_of_Colorado.svg",
     seal:
@@ -214,6 +227,8 @@ export const states = [
     id: "7",
     name: "Connecticut",
     postal: "CT",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/3/3a/Connecticut_in_United_States_%28zoom%29.svg",
     flag:
       "https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_Connecticut.svg",
     seal:
@@ -248,24 +263,35 @@ export const states = [
     id: "8",
     name: "Delaware",
     postal: "DE",
-    flag: "",
-    seal: "",
-    nickname: ["", ""],
-    stateLength: [" mi", " km"],
-    stateWidth: [" mi", " km"],
-    motto: "",
-    website: "https://www. .gov/",
-    capital: "",
-    largestCity: "",
-    population: 731545,
-    totalAreaMI: 665384,
-    totalAreaKM: 1723337,
-    densityMI: 1,
-    densityKM: 1,
-    latitude: "",
-    longitude: "",
-    stateRouteMarker: "",
-    stateQuarter: "",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/8/8c/Delaware_in_United_States_%28zoom%29.svg",
+    flag:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c6/Flag_of_Delaware.svg",
+    seal:
+      "https://upload.wikimedia.org/wikipedia/commons/3/35/Seal_of_Delaware.svg",
+    nickname: [
+      "The First State",
+      "The Small Wonder",
+      "Blue Hen State",
+      "The Diamond State",
+    ],
+    stateLength: ["96 mi", "154 km"],
+    stateWidth: ["30 mi", "48 km"],
+    motto: "Liberty and Independence",
+    website: "https://www.delaware.gov/",
+    capital: "Dover",
+    largestCity: "Wilmington",
+    population: 973764,
+    totalAreaMI: 248872,
+    totalAreaKM: 6446,
+    densityMI: 469,
+    densityKM: 179,
+    latitude: "38° 27′ N to 39° 50′ N",
+    longitude: "75° 3′ W to 75° 47′ W",
+    stateRouteMarker:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ec/Elongated_circle_1.svg",
+    stateQuarter:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d4/1999_DE_Proof.png",
     livingInsignia: [],
     inanimateInsignia: [],
   },
@@ -273,24 +299,30 @@ export const states = [
     id: "9",
     name: "Florida",
     postal: "FL",
-    flag: "",
-    seal: "",
-    nickname: ["", ""],
-    stateLength: [" mi", " km"],
-    stateWidth: [" mi", " km"],
-    motto: "",
-    website: "https://www. .gov/",
-    capital: "",
-    largestCity: "",
-    population: 731545,
-    totalAreaMI: 665384,
-    totalAreaKM: 1723337,
-    densityMI: 1,
-    densityKM: 1,
-    latitude: "",
-    longitude: "",
-    stateRouteMarker: "",
-    stateQuarter: "",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/1/15/Florida_in_United_States.svg",
+    flag:
+      "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Florida.svg",
+    seal:
+      "https://upload.wikimedia.org/wikipedia/commons/2/2b/Seal_of_Florida.svg",
+    nickname: ["Sunshine State"],
+    stateLength: ["447 mi", "721 km"],
+    stateWidth: ["361 mi", "582 km"],
+    motto: "In God We Trust",
+    website: "https://www.myflorida.com/",
+    capital: "Tallahassee",
+    largestCity: "Jacksonville",
+    population: 21733312,
+    totalAreaMI: 6575770,
+    totalAreaKM: 170312,
+    densityMI: 384.3,
+    densityKM: 121,
+    latitude: "24° 27' N to 31° 00' N",
+    longitude: "80° 02' W to 87° 38' W",
+    stateRouteMarker:
+      "https://upload.wikimedia.org/wikipedia/commons/3/39/Florida_27.svg",
+    stateQuarter:
+      "https://upload.wikimedia.org/wikipedia/commons/6/68/2004_FL_Proof.png",
     livingInsignia: [],
     inanimateInsignia: [],
   },
