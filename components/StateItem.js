@@ -4,14 +4,15 @@ import styles from "../styles/StateList.module.scss";
 const StateItem = ({ state }) => {
   return (
     <Link href={`/state/${state.postal}`}>
-      <div className={styles.card}>
-        <img className={styles.flagimage} src={state.flag} alt={state.name} />
-        <a>
-          <h5 className={state.postal} data-postal={state.postal}>
-            {state.name}
-          </h5>
-        </a>
-      </div>
+      <a>
+        <div className={styles.card}>
+          <div className={styles.flagimage}>
+            <img src={state.flag} alt={state.name} />
+          </div>
+          <h5 className={state.postal} data-postal={state.postal}></h5>
+          <h6> {state.name}</h6>
+        </div>
+      </a>
     </Link>
   );
 };
