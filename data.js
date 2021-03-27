@@ -326,4 +326,72 @@ export const states = [
     livingInsignia: [],
     inanimateInsignia: [],
   },
+  {
+    id: "10",
+    name: "Georgia",
+    postal: "GA",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/Georgia_in_United_States.svg",
+    flag:
+      "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Georgia_%28U.S._state%29.svg",
+    seal:
+      "https://upload.wikimedia.org/wikipedia/commons/7/79/Seal_of_Georgia.svg",
+    nickname: ["Peach State", "Empire State of the South"],
+    stateLength: ["298 mi", "480 km"],
+    stateWidth: ["230 mi", "370 km"],
+    motto: "Wisdom, Justice, Moderation",
+    website: "https://www.georgia.gov/",
+    capital: "Atlanta",
+    largestCity: "Atlanta",
+    population: 10617423,
+    totalAreaMI: 59425,
+    totalAreaKM: 153910,
+    densityMI: 165,
+    densityKM: 65.4,
+    latitude: "30.356–34.985° N",
+    longitude: "80.840–85.605° W",
+    stateRouteMarker:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d0/Georgia_8.svg",
+    stateQuarter:
+      "https://upload.wikimedia.org/wikipedia/commons/7/7d/1999_GA_Proof.png",
+    livingInsignia: [],
+    inanimateInsignia: [],
+  },
+  {
+    id: "11",
+    name: "Hawaii",
+    postal: "HA",
+    stateBorder:
+      "https://upload.wikimedia.org/wikipedia/commons/4/48/Hawaii_in_United_States_%28zoom%29_%28US50%29_%28-grid%29.svg",
+    flag:
+      "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg",
+    seal:
+      "https://upload.wikimedia.org/wikipedia/commons/c/ca/Seal_of_the_State_of_Hawaii.svg",
+    nickname: [
+      "The Aloha State",
+      "Paradise of the Pacific",
+      "The Islands of Aloha",
+      "The 808 State",
+    ],
+    stateLength: ["1522 mi", "2450 km"],
+    stateWidth: ["n/a mi", "n/a km"],
+    motto:
+      "Ua Mau ke Ea o ka ʻĀina i ka Pono (The Life of the Land Is Perpetuated in Righteousness)",
+    website: "https://www.portal.ehawaii.gov/",
+    capital: "Honolulu",
+    largestCity: "Honolulu",
+    population: 1415872,
+    totalAreaMI: 10931,
+    totalAreaKM: 28311,
+    densityMI: 221,
+    densityKM: 82.6,
+    latitude: "18° 55′ N to 28° 27′ N",
+    longitude: "154° 48′ W to 178° 22′ W",
+    stateRouteMarker:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6e/HI-11.svg",
+    stateQuarter:
+      "https://upload.wikimedia.org/wikipedia/commons/a/af/2008_HI_Proof.png",
+    livingInsignia: [],
+    inanimateInsignia: [],
+  },
 ];
